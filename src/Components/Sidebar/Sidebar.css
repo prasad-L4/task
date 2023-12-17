@@ -1,6 +1,7 @@
 nav{
     width: 200px;
     height: 100px!important;
+    position: fixed;
     
  
 }
