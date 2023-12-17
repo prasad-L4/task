@@ -1,105 +1,16 @@
-nav{
-    width: 200px;
-    height: 100px!important;
-    position: fixed;
-    
- 
-}
-.buttons{
-    
-}
-.btn{
-    display: flex;
-    align-items: center;
-    margin-top: 1px;
 
-}
-.logo{
 
-       
-        
-}
-.logo-img{
- 
-width: 200px;
-transform-origin: top right;
-clip-path: polygon(0 0, 100% 0%, 70% 100%, 0% 100%);
-
-}
-.btn img{
-    
-}
-.logbtn{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 24px;
-    color: rgb(93, 145, 223);
-    padding-bottom: 20px;
-}
-
-@media(max-width:500px){
-    nav{
-        width: 60px;
-        height: auto;
-
-    }
-    .btn h3{
-        display: none;
-    }
-   
-    .logbtn{
-        display: flex;
-        justify-content:center;
-      gap: 10px;
-
-        font-size: 12px;
-        margin-top: 70px;
-  
-    }
-    .logbtn button{
-        display: none;
-
-    }
-    .profile {
-        width: 60px;
-        height: 80px;
-        border-radius: 60%;
-        box-shadow: none;
-        display: flex;
-        align-items: center;
-        justify-content: left;
-        margin-top: 35px;
-    }
-    .profile img{
-        width: 30px;
-        height: 30px;
-       margin-top: -10px;
-        border-radius: 50%;
-        object-fit: cover;
-        
-    }
-    .profile h3 ,.profile h5{
-        display: none;
-    }
-    .logo-img{
-        width: 60px;
-        height: 105px;
-        object-fit: cover;
-    }
-    .buttons{
-    margin-top: -20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    }
-    .buttons img{
-        margin-top: 20px;
-        width: 70px;
-    }
-
-   
-   
+.dot{
+visibility: hidden;
 }
 
 
+
+@media(max-width:640px){
+.dot{
+  visibility: visible;
+}
+.bar{
+    display: none;
+}
+}
