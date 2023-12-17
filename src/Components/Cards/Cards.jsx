@@ -196,9 +196,9 @@ const Cards = () => {
                 <div className="max-w-lg mt-3 mx-auto bg-white shadow-md rounded-md p-6">
                   <div className="card flex flex-col md:flex-row">
                     <div className="md:w-1/2 md:pr-4 mb-4 md:mb-0">
-                      <h4 className="text-lime-700 bg-lime-400 w-[112px] text-center h-9 pt-1 rounded-2xl">
+                      <h6 className="text-lime-700 bg-lime-400 w-[112px] text-center h-9 pt-1 rounded-2xl">
                         Free Forever
-                      </h4>
+                      </h6>
                       <h2 className="text-xl font-bold mt-3 mb-2">
                         Free Starter
                       </h2>
@@ -246,9 +246,9 @@ const Cards = () => {
                 <div className="max-w-lg mt-3 mx-auto bg-white shadow-md rounded-md p-6">
                   <div className="flex flex-col md:flex-row">
                     <div className="md:w-1/2 md:pr-4 mb-4 md:mb-0">
-                      <h4 className="text-sky-700 bg-sky-300 w-[112px] text-center h-9 pt-1 rounded-2xl">
+                      <h6 className="text-sky-700 bg-sky-300 w-[112px] text-center h-9 pt-1 rounded-2xl">
                         Let's Connect
-                      </h4>
+                      </h6>
                       <h2 className="text-xl font-bold mt-3 mb-2">
                         Free Starter
                       </h2>
