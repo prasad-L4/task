@@ -36,7 +36,7 @@ const Sidebar = () => {
               </div>
             </div>
           </div>
-          <div className="buttons mt-10 ">
+          <div className="buttons mt-2 ">
             <div className="btn gap-5">
               <img src={icon1} alt="" />
               <h3>Dashboard</h3>
@@ -60,7 +60,7 @@ const Sidebar = () => {
           </div>
           <div className="logbtn px-2">
             <button className="">Logout </button>
-            <ImSwitch className="icon w-[15px] mt-1" />
+            <ImSwitch className="icon w-[15px] mt-" />
           </div>
         </div>
       </section>
