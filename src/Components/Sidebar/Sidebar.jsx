@@ -37,7 +37,7 @@ const Sidebar = () => {
             </div>
           </div>
           <div className="buttons mt-2 ">
-            <div className="btn gap-5">
+            <div className="btn gap-5 bg-cyan-700">
               <img src={icon1} alt="" />
               <h3>Dashboard</h3>
             </div>

@@ -1,6 +1,7 @@
 nav{
     width: 200px;
     height: 100px!important;
+    
  
 }
 .buttons{
@@ -81,7 +82,8 @@ clip-path: polygon(0 0, 100% 0%, 70% 100%, 0% 100%);
     }
     .logo-img{
         width: 60px;
-        height: 50px;
+        height: 105px;
+        object-fit: cover;
     }
     .buttons{
     margin-top: -20px;
